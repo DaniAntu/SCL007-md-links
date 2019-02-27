@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/DaniAntu/SCL007-md-links/issues"
   },
-  "homepage": "https://github.com/DaniAntu/SCL007-md-links#readme"
+  "homepage": "https://github.com/DaniAntu/SCL007-md-links#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
 }
