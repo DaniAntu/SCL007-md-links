@@ -1,8 +1,9 @@
+require('colors');
 const readLine = require('readline');
 const reviewLinks = require('./mdLinks.js');
 
 if (require.main === module) {
-  console.log('Hola, ingresa archivo o directorio.');
+  console.log('Hola, ingresa archivo o directorio.'.green);
 
   const rl = readLine.createInterface({ // Pausa en consola, para que el usuario escriba
     input: process.stdin,
